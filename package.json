@@ -7,7 +7,7 @@
     "dev": "vite dev",
     "build": "vite build && node scripts/generate-index.mjs",
     "build:dev": "vite build --mode development",
-    "vercel-build": "vite build && node scripts/generate-index.mjs",
+    "vercel-build": "vite build && node scripts/generate-index.mjs && node scripts/copy-to-dist.mjs",
     "preview": "vite preview",
     "lint": "eslint .",
     "format": "prettier --write ."

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <clipPath id="c">
+      <circle cx="32" cy="32" r="32"/>
+    </clipPath>
+  </defs>
+  <!-- White background so logo colors show correctly -->
+  <circle cx="32" cy="32" r="32" fill="#ffffff"/>
+  <!-- Logo fills the full circle -->
+  <image href="/care.png" x="2" y="2" width="60" height="60" clip-path="url(#c)" preserveAspectRatio="xMidYMid meet"/>
+</svg>
