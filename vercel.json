@@ -3,12 +3,7 @@
   "outputDirectory": ".output/public",
   "framework": null,
   "installCommand": "npm install",
-  "functions": {
-    "api/server.js": {
-      "includeFiles": ".output/server/**"
-    }
-  },
   "rewrites": [
-    { "source": "/(.*)", "destination": "/api/server" }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
