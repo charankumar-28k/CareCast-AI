@@ -3,6 +3,7 @@
   "outputDirectory": ".output/public",
   "framework": null,
   "installCommand": "npm install",
+  "functions": {},
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
