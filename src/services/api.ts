@@ -27,7 +27,7 @@ import {
 
 // ── Config ────────────────────────────────────────────────────────────────────
 
-export const API_BASE = (import.meta.env["VITE_API_URL"] as string | undefined) || "";
+export const API_BASE = (import.meta.env["VITE_API_URL"] as string | undefined) ?? "";
 const TIMEOUT_MS = 8000;
 
 // ── Connection status ─────────────────────────────────────────────────────────
