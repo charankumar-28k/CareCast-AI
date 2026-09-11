@@ -1,6 +1,6 @@
 import type { EmergencyCase, EmergencySeverity, AlertLifecycleStep } from "./mock-data";
 
-const BASE = (import.meta.env["VITE_API_URL"] as string | undefined) ?? "http://localhost:8000";
+const BASE = (import.meta.env["VITE_API_URL"] as string | undefined) || "";
 const LS_KEY = "carecast_emergencies";
 
 // ── Types ──────────────────────────────────────────────────────────────────
